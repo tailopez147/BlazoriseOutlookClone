@@ -13,7 +13,7 @@ builder.Services
     {
         options.Immediate = true;
     })
-    .AddFluentUI2Components()
+    .AddFluentUI2Providers()
     .AddFluentUIIcons();
 
 await builder.Build().RunAsync();
